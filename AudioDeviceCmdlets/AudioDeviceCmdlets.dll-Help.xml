@@ -152,7 +152,7 @@
     <command:details>
       <command:name>Set-DefaultAudioDeviceMute</command:name>
       <maml:description>
-        <maml:para>Toggle mute</maml:para>
+        <maml:para>Set mute</maml:para>
       </maml:description>
       <maml:copyright>
         <maml:para></maml:para>
@@ -162,11 +162,33 @@
       <dev:version>0.1</dev:version>
     </command:details>
     <maml:description>
-      <maml:para>Toggle mute on the default playback device.</maml:para>
+      <maml:para>Set the default playback device to mute, regardless of current setting.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
         <maml:name>Set-DefaultAudioDeviceMute</maml:name>
+      </command:syntaxItem>
+    </command:syntax>
+  </command:command>
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10">
+    <command:details>
+      <command:name>Switch-DefaultAudioDeviceMute</command:name>
+      <maml:description>
+        <maml:para>Toggle mute</maml:para>
+      </maml:description>
+      <maml:copyright>
+        <maml:para></maml:para>
+      </maml:copyright>
+      <command:verb>Switch</command:verb>
+      <command:noun>DefaultAudioDeviceMute</command:noun>
+      <dev:version>0.1</dev:version>
+    </command:details>
+    <maml:description>
+      <maml:para>Toggle mute on the default playback device.</maml:para>
+    </maml:description>
+    <command:syntax>
+      <command:syntaxItem>
+        <maml:name>Switch-DefaultAudioDeviceMute</maml:name>
       </command:syntaxItem>
     </command:syntax>
   </command:command>
